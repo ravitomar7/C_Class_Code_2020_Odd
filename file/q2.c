@@ -5,7 +5,7 @@ void main()
     int id;  
     char name[30];  
     float salary;  
-    fptr = fopen("emp.txt", "w+");/*  open for writing */  
+    fptr = fopen("emp.txt", "w");/*  open for writing */  
     if (fptr == NULL)  
     {  
         printf("File does not exists \n");  
